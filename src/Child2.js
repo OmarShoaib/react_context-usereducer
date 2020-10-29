@@ -1,7 +1,6 @@
 // UseReducer = Has the accessibility in multiple components with the same value
 
 import React, {useReducer} from "react";
-import Child from "./Child";
 import NumberReducer from "./NumberReducer";
 
 function Child2() {
