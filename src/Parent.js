@@ -1,10 +1,13 @@
 import Child from './Child';
+import Child2 from './Child2';
 
 function Parent(props) {
   return (
     <div>
-      In Parent = {props.num}
-      <Child num={props.num} />
+      In Parent - Update by props (Passing Value) = {props.num}
+      <Child />
+      <br />
+      <Child2 />
     </div>
   );
 }
